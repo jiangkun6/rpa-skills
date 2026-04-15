@@ -1,0 +1,10 @@
+{
+  "name": "dhf-skills",
+  "description": "DHF RPA Skills - AI search and automation tasks for Claude Code",
+  "author": {
+    "name": "DHF Community",
+    "email": "919606954@qq.com"
+  },
+  "version": "1.0.0",
+  "homepage": "https://github.com/jiangkun6/rpa-skills"
+}
