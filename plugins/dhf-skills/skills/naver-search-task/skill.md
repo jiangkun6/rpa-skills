@@ -1,6 +1,6 @@
 ---
 name: naver-search-task
-description: Naver search automation. Use this skill when the user wants to perform web searches using Naver search engine for Korean content through browser automation.
+description: 调用 DHF Agent 任务进行 Naver 搜索。输入关键词，自动搜索并返回结果
 ---
 
 # Naver Search Task

@@ -1,6 +1,14 @@
 ---
 name: duckduckgo-search-task
-description: DuckDuckGo search automation. Use this skill when the user wants to perform private web searches using DuckDuckGo search engine through browser automation. Automatically opens browser and executes search without tracking.
+description: 调用 DHF Agent 任务进行 DuckDuckGo 搜索。输入关键词，浏览器自动打开执行搜索
+version: 1.0.0
+metadata:
+  tags: [dhf, automation, search, duckduckgo, task]
+  categories: [automation, search]
+  author: "DHF Community"
+  license: MIT
+  homepage: https://dhf.pub
+  repository: https://dhf.pub
 ---
 
 # duckduckgo-search-task

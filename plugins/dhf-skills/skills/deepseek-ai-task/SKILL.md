@@ -1,6 +1,14 @@
 ---
 name: deepseek-ai-task
-description: AI-powered DeepSeek search automation. Use this skill when the user wants to search for information using DeepSeek AI or perform AI-based Q&A. Automatically opens DeepSeek through DHF Agent and executes search with intelligent responses.
+description: 调用 DHF Agent 任务进行 DeepSeek AI 搜索。输入问题，自动打开 DeepSeek 进行 AI 问答
+version: 1.0.0
+metadata:
+  tags: [dhf, automation, ai, deepseek, search, chat]
+  categories: [automation, ai]
+  author: "DHF Community"
+  license: MIT
+  homepage: https://dhf.pub
+  repository: https://dhf.pub
 ---
 
 # deepseek-ai-task

@@ -1,6 +1,14 @@
 ---
 name: gemini-ai-task
-description: AI-powered Gemini search automation. Use this skill when the user wants to search for information using Google Gemini AI or perform AI-based Q&A. Automatically opens Gemini through DHF Agent and executes search with intelligent responses.
+description: 调用 DHF Agent 任务进行 Gemini AI 搜索。输入问题，自动打开 Gemini 进行 AI 问答
+version: 1.0.0
+metadata:
+  tags: [dhf, automation, ai, gemini, search, chat, google]
+  categories: [automation, ai]
+  author: "DHF Community"
+  license: MIT
+  homepage: https://dhf.pub
+  repository: https://dhf.pub
 ---
 
 # gemini-ai-task

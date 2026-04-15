@@ -1,6 +1,14 @@
 ---
 name: bing-search-task
-description: Bing search automation. Use this skill when the user wants to perform web searches using Microsoft Bing search engine through browser automation. Automatically opens browser and executes search with results extraction.
+description: 调用 DHF Agent 任务进行必应搜索。输入关键词，浏览器自动打开执行搜索
+version: 1.0.0
+metadata:
+  tags: [dhf, automation, search, bing, task]
+  categories: [automation, search]
+  author: "DHF Community"
+  license: MIT
+  homepage: https://dhf.pub
+  repository: https://dhf.pub
 ---
 
 # bing-search-task
