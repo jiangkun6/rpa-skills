@@ -1,0 +1,27 @@
+{
+  "name": "@dhf-skills/kimi-ai-task",
+  "version": "1.0.0",
+  "description": "调用 DHF Agent 任务进行 Kimi AI 搜索。输入问题，自动打开 Kimi 进行 AI 问答",
+  "type": "module",
+  "bin": {
+    "kimi-ai-task": "./scripts/main.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "bun": ">=1.0.0"
+  },
+  "keywords": ["claude-code", "skill", "dhf", "kimi", "ai", "search", "chat", "moonshot"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangkun6/rpa-skills.git",
+    "directory": "skills/kimi-ai-task"
+  },
+  "author": "DHF Community",
+  "license": "MIT",
+  "files": [
+    "SKILL.md",
+    "scripts/**/*"
+  ]
+}

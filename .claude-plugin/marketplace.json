@@ -1,0 +1,33 @@
+{
+  "name": "dhf-skills",
+  "owner": {
+    "name": "DHF Community",
+    "email": "919606954@qq.com"
+  },
+  "metadata": {
+    "description": "DHF RPA Skills - AI search and automation tasks for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dhf-skills",
+      "description": "AI search tasks (ChatGPT, DeepSeek, Gemini, etc.) and search engine automation",
+      "source": "./",
+      "strict": true,
+      "skills": [
+        "./skills/chatgpt-ai-task",
+        "./skills/deepseek-ai-task",
+        "./skills/gemini-ai-task",
+        "./skills/kimi-ai-task",
+        "./skills/qwen-ai-task",
+        "./skills/claude-ai-task",
+        "./skills/bing-search-task",
+        "./skills/google-search-task",
+        "./skills/duckduckgo-search-task",
+        "./skills/naver-search-task",
+        "./skills/yahoo-japan-search-task",
+        "./skills/sogou-wechat-search-task"
+      ]
+    }
+  ]
+}

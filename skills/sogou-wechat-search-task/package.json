@@ -1,0 +1,27 @@
+{
+  "name": "@dhf-skills/sogou-wechat-search-task",
+  "version": "1.0.0",
+  "description": "调用 DHF Agent 任务进行搜狗微信公众号搜索。输入关键词，浏览器自动打开执行搜索",
+  "type": "module",
+  "bin": {
+    "sogou-wechat-search-task": "./scripts/main.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "bun": ">=1.0.0"
+  },
+  "keywords": ["claude-code", "skill", "dhf", "sogou", "search", "wechat", "weixin"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangkun6/rpa-skills.git",
+    "directory": "skills/sogou-wechat-search-task"
+  },
+  "author": "DHF Community",
+  "license": "MIT",
+  "files": [
+    "SKILL.md",
+    "scripts/**/*"
+  ]
+}

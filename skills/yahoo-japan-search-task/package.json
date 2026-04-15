@@ -1,0 +1,27 @@
+{
+  "name": "@dhf-skills/yahoo-japan-search-task",
+  "version": "1.0.0",
+  "description": "调用 DHF Agent 任务进行日本雅虎搜索。输入关键词，自动搜索并返回结果",
+  "type": "module",
+  "bin": {
+    "yahoo-japan-search-task": "./scripts/main.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "bun": ">=1.0.0"
+  },
+  "keywords": ["claude-code", "skill", "dhf", "yahoo", "search", "japan"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangkun6/rpa-skills.git",
+    "directory": "skills/yahoo-japan-search-task"
+  },
+  "author": "DHF Community",
+  "license": "MIT",
+  "files": [
+    "SKILL.md",
+    "scripts/**/*"
+  ]
+}

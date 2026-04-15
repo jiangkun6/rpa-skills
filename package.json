@@ -1,0 +1,25 @@
+{
+  "name": "dhf-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DHF RPA Skills for Claude Code",
+  "workspaces": [
+    "skills/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "publish:all": "npm run build && npm publish --workspaces --access public",
+    "test": "echo \"No tests yet\""
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/rpa-skills.git"
+  },
+  "keywords": ["claude-code", "skills", "dhf", "rpa", "ai", "automation"],
+  "author": "DHF Community",
+  "license": "MIT"
+}

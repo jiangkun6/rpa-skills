@@ -1,0 +1,27 @@
+{
+  "name": "@dhf-skills/gemini-ai-task",
+  "version": "1.0.0",
+  "description": "调用 DHF Agent 任务进行 Gemini AI 搜索。输入问题，自动打开 Gemini 进行 AI 问答",
+  "type": "module",
+  "bin": {
+    "gemini-ai-task": "./scripts/main.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "bun": ">=1.0.0"
+  },
+  "keywords": ["claude-code", "skill", "dhf", "gemini", "ai", "search", "chat", "google"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangkun6/rpa-skills.git",
+    "directory": "skills/gemini-ai-task"
+  },
+  "author": "DHF Community",
+  "license": "MIT",
+  "files": [
+    "SKILL.md",
+    "scripts/**/*"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "@dhf-skills/claude-ai-task",
+  "version": "1.0.0",
+  "description": "调用 DHF Agent 任务进行 Claude AI 搜索。输入问题，自动打开 Claude 进行 AI 问答",
+  "type": "module",
+  "bin": {
+    "claude-ai-task": "./scripts/main.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "bun": ">=1.0.0"
+  },
+  "keywords": ["claude-code", "skill", "dhf", "claude", "ai", "search", "chat", "anthropic"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiangkun6/rpa-skills.git",
+    "directory": "skills/claude-ai-task"
+  },
+  "author": "DHF Community",
+  "license": "MIT",
+  "files": [
+    "SKILL.md",
+    "scripts/**/*"
+  ]
+}
