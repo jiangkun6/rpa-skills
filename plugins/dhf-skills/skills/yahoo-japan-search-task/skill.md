@@ -1,6 +1,6 @@
 ---
 name: yahoo-japan-search-task
-description: 调用 DHF Agent 任务进行日本雅虎搜索。输入关键词，自动搜索并返回结果
+description: Yahoo Japan search automation. Use this skill when the user wants to perform web searches using Yahoo Japan search engine through browser automation.
 ---
 
 # Yahoo Japan Search Task

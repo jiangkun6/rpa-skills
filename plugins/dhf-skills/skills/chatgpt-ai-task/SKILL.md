@@ -1,14 +1,6 @@
 ---
 name: chatgpt-ai-task
-description: 调用 DHF Agent 任务进行 ChatGPT AI 搜索。输入问题，自动打开 ChatGPT 进行 AI 问答
-version: 1.0.0
-metadata:
-  tags: [dhf, automation, ai, chatgpt, search, chat]
-  categories: [automation, ai]
-  author: "DHF Community"
-  license: MIT
-  homepage: https://dhf.pub
-  repository: https://dhf.pub
+description: AI-powered ChatGPT search automation. Use this skill when the user wants to search for information using ChatGPT AI or perform AI-based Q&A. Automatically opens ChatGPT through DHF Agent and executes search with support for role customization and output formatting.
 ---
 
 # chatgpt-ai-task

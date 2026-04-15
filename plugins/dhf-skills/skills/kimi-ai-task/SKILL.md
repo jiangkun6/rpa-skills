@@ -1,14 +1,6 @@
 ---
 name: kimi-ai-task
-description: 调用 DHF Agent 任务进行 Kimi AI 搜索。输入问题，自动打开 Kimi 进行 AI 问答
-version: 1.0.0
-metadata:
-  tags: [dhf, automation, ai, kimi, search, chat, moonshot]
-  categories: [automation, ai]
-  author: "DHF Community"
-  license: MIT
-  homepage: https://dhf.pub
-  repository: https://dhf.pub
+description: AI-powered Kimi search automation. Use this skill when the user wants to search for information using Kimi AI or perform AI-based Q&A. Automatically opens Kimi through DHF Agent and executes search with intelligent responses.
 ---
 
 # kimi-ai-task

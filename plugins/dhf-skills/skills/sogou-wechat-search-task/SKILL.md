@@ -1,14 +1,6 @@
 ---
 name: sogou-wechat-search-task
-description: 调用 DHF Agent 任务进行搜狗微信公众号搜索。输入关键词，浏览器自动打开执行搜索
-version: 1.0.0
-metadata:
-  tags: [dhf, automation, search, sogou, wechat, task]
-  categories: [automation, search]
-  author: "DHF Community"
-  license: MIT
-  homepage: https://dhf.pub
-  repository: https://dhf.pub
+description: WeChat search automation via Sogou. Use this skill when the user wants to search for WeChat public account articles and content through Sogou WeChat search engine.
 ---
 
 # sogou-wechat-search-task

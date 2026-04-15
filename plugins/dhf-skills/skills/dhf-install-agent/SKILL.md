@@ -1,14 +1,6 @@
 ---
 name: dhf-install-agent
-description: Install DHF Bee Agent (Grix platform) - an OpenClaw compatible multi-agent collaboration platform for browser automation and workflow execution
-version: 1.0.0
-metadata:
-  tags: [automation, agent, workflow, dhf, grix, installer]
-  categories: [development, tools]
-  author: "DHF Community"
-  license: MIT
-  homepage: https://dhf.pub
-  repository: https://dhf.pub
+description: DHF Agent installation and setup helper. Use this skill when the user needs to install, configure, or troubleshoot DHF Agent (Grix platform) for browser automation and workflow execution.
 ---
 
 # dhf-install-agent

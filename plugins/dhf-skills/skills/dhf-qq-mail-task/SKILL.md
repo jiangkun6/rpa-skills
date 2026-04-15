@@ -1,20 +1,6 @@
 ---
 name: dhf-qq-mail-task
-description: 调用 DHF Agent 任务市场中的 QQ 邮件发送任务 (NRxq1h)。使用 QQ 浏览器自动发送邮件，支持收件人选择、主题、正文和附件上传
-version: 1.0.0
-metadata:
-  tags: [dhf, automation, email, qq-mail, task]
-  categories: [automation, communication]
-  author: "DHF Community"
-  license: MIT
-  homepage: https://dhf.pub
-  repository: https://dhf.pub
-  mcp_server: dhf_rpa_task
-  mcp_port: 6869
-  dependencies:
-    - skill: dhf-install-agent
-      condition: mcp_not_connected
-      action: auto_start
+description: QQ Mail automation through DHF Agent. Use this skill when the user wants to send emails via QQ Mail using browser automation. Supports recipient selection, subject, body text, and file attachments.
 ---
 
 # dhf-qq-mail-task

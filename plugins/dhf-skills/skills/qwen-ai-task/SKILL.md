@@ -1,14 +1,6 @@
 ---
 name: qwen-ai-task
-description: 调用 DHF Agent 任务进行 Qwen (通义千问) AI 搜索。输入问题，自动打开 Qwen 进行 AI 问答
-version: 1.0.0
-metadata:
-  tags: [dhf, automation, ai, qwen, search, chat, tongyi]
-  categories: [automation, ai]
-  author: "DHF Community"
-  license: MIT
-  homepage: https://dhf.pub
-  repository: https://dhf.pub
+description: AI-powered Qwen (Tongyi Qianwen) search automation. Use this skill when the user wants to search for information using Qwen AI or perform AI-based Q&A. Automatically opens Qwen through DHF Agent and executes search with intelligent responses.
 ---
 
 # qwen-ai-task
