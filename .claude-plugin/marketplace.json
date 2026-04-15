@@ -1,0 +1,21 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "dhf-skills",
+  "description": "DHF RPA Skills - AI search and automation tasks for Claude Code",
+  "owner": {
+    "name": "DHF Community",
+    "email": "919606954@qq.com"
+  },
+  "plugins": [
+    {
+      "name": "dhf-skills",
+      "description": "AI search tasks (ChatGPT, DeepSeek, Gemini, etc.) and search engine automation",
+      "author": {
+        "name": "DHF Community",
+        "email": "919606954@qq.com"
+      },
+      "source": "./plugins/dhf-skills",
+      "category": "automation"
+    }
+  ]
+}

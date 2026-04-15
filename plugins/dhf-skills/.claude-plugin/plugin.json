@@ -1,6 +1,6 @@
 {
   "name": "dhf-skills",
-  "description": "DHF RPA Skills - AI search and automation tasks for Claude Code",
+  "description": "AI search tasks (ChatGPT, DeepSeek, Gemini, etc.) and search engine automation",
   "author": {
     "name": "DHF Community",
     "email": "919606954@qq.com"
